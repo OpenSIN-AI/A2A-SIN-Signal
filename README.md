@@ -1,14 +1,38 @@
 # A2A-SIN-Signal
 
-Signal messaging via signal-cli
+> A2A agent for Signal integration within the OpenSIN ecosystem.
 
-## Setup
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Stars](https://img.shields.io/github/stars/OpenSIN-AI/A2A-SIN-Signal)](https://github.com/OpenSIN-AI/A2A-SIN-Signal)
+
+## Overview
+
+This repository provides an Agent-to-Agent (A2A) integration for Signal, enabling seamless communication and automation within the OpenSIN-AI ecosystem.
+
+## Quick Start
 
 ```bash
-export A2A_SIN_Signal_TOKEN=your-token
+git clone https://github.com/OpenSIN-AI/A2A-SIN-Signal.git
+cd A2A-SIN-Signal
 npm install
 npm start
 ```
 
+## Features
+
+- A2A protocol support for Signal
+- Automated message routing
+- Integration with OpenSIN MCP servers
+- Full observability via OpenSIN-Ledger
+
+## Architecture
+
+This agent connects to the OpenSIN orchestrator and handles Signal-specific messaging through the A2A protocol.
+
+## Contributing
+
+See [CONTRIBUTING.md](CONTRIBUTING.md).
+
 ## License
-MIT
+
+MIT — See [LICENSE](LICENSE).
