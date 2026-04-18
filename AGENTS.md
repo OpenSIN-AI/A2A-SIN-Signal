@@ -17,7 +17,7 @@ A2A agent for Signal integration within the OpenSIN ecosystem.
 
 ## Security
 
-- All operations logged to OpenSIN-Ledger
+- All operations logged to the approved artifact storage surface
 - Requires authorization token
 - Guardrails enforced on all inputs/outputs
 
@@ -26,10 +26,19 @@ A2A agent for Signal integration within the OpenSIN ecosystem.
 ```bash
 git clone https://github.com/OpenSIN-AI/A2A-SIN-Signal.git
 cd A2A-SIN-Signal
-npm install
-npm start
+bun install
+bun start
 ```
+
+## Boundary Guidance
+
+When modifying this repo:
+
+- Prefer Signal messaging integration and delivery work.
+- Do not turn this repo into a generic messaging bucket.
+- Do not redefine organization docs, architecture, runtime canon, or non-Signal ownership here.
+- Move non-Signal behavior back to the repos that own those surfaces.
 
 ## License
 
-MIT
+Apache-2.0

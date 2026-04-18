@@ -2,20 +2,20 @@
 
 > A2A agent integration for Signal messaging platform.
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![License: Apache-2.0](https://img.shields.io/badge/License-Apache--2.0-blue.svg)](LICENSE)
 [![Stars](https://img.shields.io/github/stars/OpenSIN-AI/A2A-SIN-Signal)](https://github.com/OpenSIN-AI/A2A-SIN-Signal)
 
 ## Overview
 
-A2A (Agent-to-Agent) integration for Signal. Part of the OpenSIN-AI ecosystem.
+A2A (Agent-to-Agent) integration for Signal delivery and notification automation. Part of the OpenSIN-AI ecosystem.
 
 ## Quick Start
 
 ```bash
 git clone https://github.com/OpenSIN-AI/A2A-SIN-Signal.git
 cd A2A-SIN-Signal
-npm install
-npm start
+bun install
+bun start
 ```
 
 ## Features
@@ -35,7 +35,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## License
 
-MIT — See [LICENSE](LICENSE).
+Apache-2.0 — See [LICENSE](LICENSE).
 
 ## 📚 Documentation
 
